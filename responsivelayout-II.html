@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Responsive Layout - II</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <style>
+      .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        border: 2px solid black;
+      }
+      .card {
+        display: flex;
+      }
+      .card-image {
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .card-image img {
+        width: 50%;
+        /* border: 2px solid black; */
+      }
+      .card-content {
+        /* border: 2px solid black; */
+        padding: 8px;
+      }
+      .btn {
+        background-color: rgba(0, 0, 255, 0.904);
+        color: white;
+        padding: 4px 16px;
+        border: 2px solid aliceblue;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+      .btn:hover {
+        background-color: rgba(0, 0, 255, 0.473);
+        border: 2px solid rgba(140, 177, 212, 0.397);
+        transform: scale(1.1);
+        transition: 0.3s all ease;
+      }
+      @media screen and (max-width: 576px) {
+        .card {
+          flex-direction: column;
+        }
+        .card-image img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-image">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="card-content">
+          <h3>Post title Will be Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed
+            earum placeat amet quaerat unde distinctio, perferendis provident
+            vel fugit deleniti aperiam nulla illo, perspiciatis sequi porro
+            optio esse? Facere. Alias vel itaque quod adipisci corporis
+            molestiae est maiores labore similique ipsa dignissimos quaerat,
+            quas consequatur soluta ipsum magnam nam omnis error cupiditate
+            consequuntur voluptates eum neque. Alias, earum commodi.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="card-content">
+          <h3>Post title Will be Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed
+            earum placeat amet quaerat unde distinctio, perferendis provident
+            vel fugit deleniti aperiam nulla illo, perspiciatis sequi porro
+            optio esse? Facere. Alias vel itaque quod adipisci corporis
+            molestiae est maiores labore similique ipsa dignissimos quaerat,
+            quas consequatur soluta ipsum magnam nam omnis error cupiditate
+            consequuntur voluptates eum neque. Alias, earum commodi.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="card-content">
+          <h3>Post title Will be Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed
+            earum placeat amet quaerat unde distinctio, perferendis provident
+            vel fugit deleniti aperiam nulla illo, perspiciatis sequi porro
+            optio esse? Facere. Alias vel itaque quod adipisci corporis
+            molestiae est maiores labore similique ipsa dignissimos quaerat,
+            quas consequatur soluta ipsum magnam nam omnis error cupiditate
+            consequuntur voluptates eum neque. Alias, earum commodi.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="card-content">
+          <h3>Post title Will be Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed
+            earum placeat amet quaerat unde distinctio, perferendis provident
+            vel fugit deleniti aperiam nulla illo, perspiciatis sequi porro
+            optio esse? Facere. Alias vel itaque quod adipisci corporis
+            molestiae est maiores labore similique ipsa dignissimos quaerat,
+            quas consequatur soluta ipsum magnam nam omnis error cupiditate
+            consequuntur voluptates eum neque. Alias, earum commodi.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="card-content">
+          <h3>Post title Will be Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed
+            earum placeat amet quaerat unde distinctio, perferendis provident
+            vel fugit deleniti aperiam nulla illo, perspiciatis sequi porro
+            optio esse? Facere. Alias vel itaque quod adipisci corporis
+            molestiae est maiores labore similique ipsa dignissimos quaerat,
+            quas consequatur soluta ipsum magnam nam omnis error cupiditate
+            consequuntur voluptates eum neque. Alias, earum commodi.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="card-content">
+          <h3>Post title Will be Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed
+            earum placeat amet quaerat unde distinctio, perferendis provident
+            vel fugit deleniti aperiam nulla illo, perspiciatis sequi porro
+            optio esse? Facere. Alias vel itaque quod adipisci corporis
+            molestiae est maiores labore similique ipsa dignissimos quaerat,
+            quas consequatur soluta ipsum magnam nam omnis error cupiditate
+            consequuntur voluptates eum neque. Alias, earum commodi.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
